@@ -3,3 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+img {
+  width: 100%;
+}
+
+.panel {
+  box-shadow: 2px 2px 10px grey;
+}
+
+.panel:hover {
+  transform: scale(1.09);
+}
+
+.jumbotron {
+  box-shadow: 2px 2px 10px grey;
+}
