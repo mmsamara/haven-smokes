@@ -51,7 +51,7 @@ class App extends Component {
                       return (
                         <div>
                           <div className = "col-xs-6 col-md-4">
-                              <div className="panel panel-default" onClick={this.openModal} key = {index}>
+                              <div className="panel panel-default" onClick={this.openModal}>
                                 <div className="panel-heading text-center">{item.name}</div>
                                 <div className="panel-body"><img src={item.thumbnail} alt={item.name} /></div>
                               </div>
